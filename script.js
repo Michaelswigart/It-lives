@@ -46,30 +46,30 @@
 
   var criteria = []; {
    var uppercaseArray =['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']; 
-   var lowerArray = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
+   var lowercaseArray = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
    var numbersArray = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
    var symbolsArray = ['!', '#', '$', '%', '&', '(', ')', '*', '+', ',', '-', '.', ':', ';', '<', '=', '>', '?', '@', '^', '_', '|', '~'];
    var passwordString = "";
     var count = 0;
   }
 
-  if(uppercase){ criteria.push(...uppercaseArray);
+  if(uppercaseIncuded){ criteria.push(...uppercaseArray);
    passwordString += criteria[Math.floor(Math.random() * uppercaseArray.length)];
    count++;
   }
-    if (lowercase){
+    if (lowercaseIncuded){
     criteria.push(...lowercaseArray);
     passwordString += criteria[Math.floor(Math.random() * lowercaseArray.length)];
     count++;
  
   } 
-    if (numbers) { criteria.push(...numbersArray);
+    if (numbersIncuded) { criteria.push(...numbersArray);
       passwordString += criteria[Math.floor(Math.random() * numbersArray.length)];
    count++;
    
     }
 
-    if (symbols) { criteria.push(...symbolsArray);
+    if (symbolsIncuded) { criteria.push(...symbolsArray);
       passwordString += criteria[Math.floor(Math.random() * symbolsArray.length)];
       count++;
        console.log("come one come all")
