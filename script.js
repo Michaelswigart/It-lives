@@ -1,8 +1,7 @@
-  // Assignment Code // Write password to the #password input
+  // Assignment Code 
  var generateBtn = document.querySelector("#generate");
  var passwordText = document.querySelector("#password");
-
-
+  // True or false var and function
  var uppercaseIncuded = false
  var lowercaseIncuded = false
  var numbersIncuded = false
@@ -21,7 +20,7 @@
  password ="";
   writePassword()
 };
-
+  //Requirement's for password generator
  function writePassword() {
  while (passwordLength < 8 || passwordLength >128);
   uppercaseIncuded = confirm("Do you want to include upper case")
@@ -31,7 +30,6 @@
   numbersIncuded = confirm("Do you want to include numbers")
 
   symbolsIncuded = confirm("Do you want to include symbols")
-
 
   if( uppercaseIncuded === false &&
     lowercaseIncuded === false  &&
@@ -43,7 +41,7 @@
     }
 
   }
-
+   
   var criteria = []; {
    var uppercaseArray =['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']; 
    var lowercaseArray = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
@@ -72,16 +70,18 @@
     if (symbolsIncuded) { criteria.push(...symbolsArray);
       passwordString += criteria[Math.floor(Math.random() * symbolsArray.length)];
       count++;
-       console.log("come one come all")
-    console.log(string);}
+      }
+
+
+
+
+ generateBtn.addEventListener("click", writePassword);
+
 //   var password = generatePassword();
   
 //   passwordText.value = password;
 // };
 //    // Add event listener to generate button
- generateBtn.addEventListener("click", writePassword);
-
-
 //   // Password length
 //  var passwordLength = prompt ("How many characters would you like your password to have?") 
 //  if (passwordLength < 129) {
