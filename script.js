@@ -72,9 +72,18 @@
       count++;
       }
 
+   var password = generatePassword();
 
+   var passwordText = document.querySelector("#password");
+   passwordText.value = password; 
 
-
+   function generatePassword() {
+     for (i = 0; i < passwordLength - count; i++) {
+       var randomCharacter = Math.floor(Math.random() * criteria.length);
+       passwordString += criteria[randomCharacter];
+     }
+     return passwordString;
+   }
  generateBtn.addEventListener("click", writePassword);
 
 //   var password = generatePassword();
