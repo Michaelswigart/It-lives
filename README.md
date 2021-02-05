@@ -7,14 +7,11 @@
 
             I added a rest.css to the project.
 
- Image links       
-https://drive.google.com/file/d/1z7Tt_TWbgf3kJyOPmj0rTJ3_VmrCpRgh/view?usp=sharing
+![Screenshot 2020-12-20-password-generateimg png - Google Drive - Google Chrome 2_5_2021 2_49_17 PM (2)](https://user-images.githubusercontent.com/73671076/107088057-ffa0a800-67c1-11eb-8e7e-d3a1f08299f2.png)
 
-https://drive.google.com/file/d/19pYE7sP7wkLQwZT4xApvGVd1WHuEaP0s/view?usp=sharing
+![Screenshot 2020-12-20-password-generateimg png - Google Drive - Google Chrome 2_5_2021 2_50_40 PM (2)](https://user-images.githubusercontent.com/73671076/107088081-06c7b600-67c2-11eb-8dd3-cc91f2de9945.png)
 
-https://drive.google.com/file/d/19pYE7sP7wkLQwZT4xApvGVd1WHuEaP0s/view?usp=sharing
-
-https://drive.google.com/file/d/1qqHCqZbEUOrs4h2MENjRfsFfgMDO2Pbn/view?usp=sharing
+![Screenshot 2020-12-20-password-generateimg4 png - Google Drive - Google Chrome 2_5_2021 2_51_54 PM (2)](https://user-images.githubusercontent.com/73671076/107088088-09c2a680-67c2-11eb-889c-876991065fc6.png)
 
 
 
